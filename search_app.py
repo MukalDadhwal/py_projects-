@@ -10,7 +10,7 @@ window.title('Search App')
 # Defining the main function
 def show_result():
 
-    # Extractinf the query
+    # Extracting the query
     entry_query = Ent.get()
     TxtBox.delete(1.0, END)
     try:# try and except block for error handling 
